@@ -1,7 +1,7 @@
   import { createFileRoute } from "@tanstack/react-router";
   import { useEffect, useRef, useState } from "react";
 
-  const DEPLOYED_DOMAIN = "https://shajahan-shibina.vercel.app";
+  const DEPLOYED_DOMAIN = "https://ajmal-bismida.vercel.app";
 
   export const Route = createFileRoute("/")({
     head: () => {
@@ -12,13 +12,13 @@
 
       return {
         meta: [
-          { title: "Shajahan & Shibina — Wedding Invitation" },
+          { title: "Ajmal & Bismida — Wedding Invitation" },
           {
             name: "description",
             content:
-              "You are cordially invited to the wedding of Shajahan & Shibina on 29 November 2026 at N.I.C. Center, Pallinada, Kaniyapuram.",
+              "You are cordially invited to the wedding of Ajmal & Bismida on 29 November 2026 at N.I.C. Center, Pallinada, Kaniyapuram.",
           },
-          { property: "og:title", content: "Shajahan & Shibina — Wedding Invitation" },
+          { property: "og:title", content: "Ajmal & Bismida — Wedding Invitation" },
           {
             property: "og:description",
             content: "29 November 2026 · N.I.C. Center, Pallinada, Kaniyapuram",
@@ -362,9 +362,9 @@
             </p>
             <div className="intro-mark">Assalamu Alaikum</div>
             <h2 className="hero-names intro-names">
-              <span className="name-word">Shajahan</span>
+              <span className="name-word">Ajmal</span>
               <span className="name-amp">&amp;</span>
-              <span className="name-word">Shibina</span>
+              <span className="name-word">Bismida</span>
             </h2>
             <button
               className="intro-btn"
@@ -397,9 +397,9 @@
               <span>✦</span>
             </div>
             <h2 className="hero-names" data-reveal>
-              <span className="name-word">Shajahan</span>
+              <span className="name-word">Ajmal</span>
               <span className="name-amp">&amp;</span>
-              <span className="name-word">Shibina</span>
+              <span className="name-word">Bismida</span>
             </h2>
             <div className="hero-meta" data-reveal>
               <p className="hero-tag">
@@ -428,7 +428,7 @@
           <div className="family-grid" data-stagger>
             <article className="family-card" data-stagger-item>
               <span className="family-role">The Groom</span>
-              <h3 className="family-name">Shajahan</h3>
+              <h3 className="family-name">Ajmal</h3>
               <div className="mini-divider" />
               <p className="family-parents">Beloved son of</p>
               <p className="family-parents-names">Nasar &amp; Thahira</p>
@@ -436,7 +436,7 @@
             </article>
             <article className="family-card" data-stagger-item>
               <span className="family-role">The Bride</span>
-              <h3 className="family-name">Shibina</h3>
+              <h3 className="family-name">Bismida</h3>
               <div className="mini-divider" />
               <p className="family-parents">Beloved daughter of</p>
               <p className="family-parents-names">Shajahan &amp; Shibina</p>
@@ -451,9 +451,9 @@
         {/* ── COUPLE PHOTO ── */}
         <section className="section couple-photo-section">
           <div className="couple-photo-frame" data-reveal>
-            <img src={COUPLE_PORTRAIT} alt="Shajahan and Shibina" />
+            <img src={COUPLE_PORTRAIT} alt="Ajmal and Bismida" />
             <div className="photo-overlay-text">
-              <span>Shajahan &amp; Shibina</span>
+              <span>Ajmal &amp; Bismida</span>
               <span className="photo-date">29 · 11 · 2026</span>
             </div>
           </div>
