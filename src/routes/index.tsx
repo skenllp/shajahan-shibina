@@ -1,7 +1,7 @@
   import { createFileRoute } from "@tanstack/react-router";
   import { useEffect, useRef, useState } from "react";
 
-  const DEPLOYED_DOMAIN = "";
+  const DEPLOYED_DOMAIN = "https://shajahan-shibina.vercel.app";
 
   export const Route = createFileRoute("/")({
     head: () => {
