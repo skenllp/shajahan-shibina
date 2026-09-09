@@ -12,13 +12,13 @@
 
       return {
         meta: [
-          { title: "Ajmal & Bismida — Wedding Invitation" },
+          { title: "Bismida & Ajmal — Wedding Invitation" },
           {
             name: "description",
             content:
-              "You are cordially invited to the wedding of Ajmal & Bismida on 29 November 2026 at N.I.C. Center, Pallinada, Kaniyapuram.",
+              "You are cordially invited to the wedding of Bismida & Ajmal on 29 November 2026 at N.I.C. Center, Pallinada, Kaniyapuram.",
           },
-          { property: "og:title", content: "Ajmal & Bismida — Wedding Invitation" },
+          { property: "og:title", content: "Bismida & Ajmal — Wedding Invitation" },
           {
             property: "og:description",
             content: "29 November 2026 · N.I.C. Center, Pallinada, Kaniyapuram",
@@ -362,9 +362,9 @@
             </p>
             <div className="intro-mark">Assalamu Alaikum</div>
             <h2 className="hero-names intro-names">
-              <span className="name-word">Ajmal</span>
-              <span className="name-amp">&amp;</span>
               <span className="name-word">Bismida</span>
+              <span className="name-amp">&amp;</span>
+              <span className="name-word">Ajmal</span>
             </h2>
             <button
               className="intro-btn"
@@ -397,9 +397,9 @@
               <span>✦</span>
             </div>
             <h2 className="hero-names" data-reveal>
-              <span className="name-word">Ajmal</span>
-              <span className="name-amp">&amp;</span>
               <span className="name-word">Bismida</span>
+              <span className="name-amp">&amp;</span>
+              <span className="name-word">Ajmal</span>
             </h2>
             <div className="hero-meta" data-reveal>
               <p className="hero-tag">
@@ -427,14 +427,6 @@
           </div>
           <div className="family-grid" data-stagger>
             <article className="family-card" data-stagger-item>
-              <span className="family-role">The Groom</span>
-              <h3 className="family-name">Ajmal</h3>
-              <div className="mini-divider" />
-              <p className="family-parents">Beloved son of</p>
-              <p className="family-parents-names">Nasar &amp; Thahira</p>
-              <p className="family-house">Ajmal Manzil, Perumathura P. O</p>
-            </article>
-            <article className="family-card" data-stagger-item>
               <span className="family-role">The Bride</span>
               <h3 className="family-name">Bismida</h3>
               <div className="mini-divider" />
@@ -445,15 +437,23 @@
                 <i className="fa-solid fa-phone" /> 9544831879
               </p>
             </article>
+            <article className="family-card" data-stagger-item>
+              <span className="family-role">The Groom</span>
+              <h3 className="family-name">Ajmal</h3>
+              <div className="mini-divider" />
+              <p className="family-parents">Beloved son of</p>
+              <p className="family-parents-names">Nasar &amp; Thahira</p>
+              <p className="family-house">Ajmal Manzil, Perumathura P. O</p>
+            </article>
           </div>
         </section>
 
         {/* ── COUPLE PHOTO ── */}
         <section className="section couple-photo-section">
           <div className="couple-photo-frame" data-reveal>
-            <img src={COUPLE_PORTRAIT} alt="Ajmal and Bismida" />
+            <img src={COUPLE_PORTRAIT} alt="Bismida and Ajmal" />
             <div className="photo-overlay-text">
-              <span>Ajmal &amp; Bismida</span>
+              <span>Bismida &amp; Ajmal</span>
               <span className="photo-date">29 · 11 · 2026</span>
             </div>
           </div>
